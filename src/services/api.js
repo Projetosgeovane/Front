@@ -2,7 +2,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify'
 
 export const baseUrl = axios.create({
-  baseURL: "https://backenasdaad-chefao.herokuapp.com",
+  baseURL: "https://backend-chefao.herokuapp.com",
 })
 
 //Products
